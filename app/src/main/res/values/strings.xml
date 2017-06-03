@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProtectedServices</string>
+    <string name="hello_world">Try to kill or uninstall this application. :)</string>
+    <string name="device_description">ProtectedService_device_description</string>
+    <string name="device_admin_label">ProtectedService_device_admin_label</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/partner_bg"
+    android:weightSum="1.0"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight=".25"
+        android:layout_height="0dp">
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:src="@mipmap/ic_top"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight=".25"
+        android:weightSum="1.0"
+        android:layout_height="0dp">
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight=".50"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="match_parent"
+                android:src="@mipmap/ic_left_top"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight=".50"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="match_parent"
+                android:src="@mipmap/ic_right_bot"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight=".25"
+        android:weightSum="1.0"
+        android:layout_height="0dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight=".50"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="match_parent"
+                android:src="@mipmap/ic_left_bot"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight=".50"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="match_parent"
+                android:src="@mipmap/trux_partner_logo"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight=".25"
+        android:layout_height="0dp">
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="match_parent"
+            android:src="@mipmap/ic_bot"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
